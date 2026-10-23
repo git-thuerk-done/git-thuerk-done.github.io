@@ -1,0 +1,15 @@
+
+<nav class="portfolio-sidebar" aria-label="Portfolio navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li>
+        <a href="/writing-samples/">Writing Samples</a>
+        <ul>
+          {{ range (where .Site.RegularPages "Section" "writing-samples").ByWeight }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  

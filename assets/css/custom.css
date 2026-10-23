@@ -1,0 +1,128 @@
+.portfolio-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.portfolio-sidebar {
+  flex-shrink: 0;
+  font-size: 0.875rem;
+}
+
+.portfolio-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.portfolio-sidebar h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.portfolio-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portfolio-sidebar li {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-sidebar ul ul {
+  padding-left: 1rem;
+  margin-top: 0.75rem;
+}
+
+.portfolio-sidebar a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .portfolio-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .portfolio-sidebar {
+    width: 220px;
+    position: sticky;
+    top: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .portfolio-sidebar {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.portfolio-intro {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio-profile-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.portfolio-intro h1 {
+  margin: 0;
+}
+
+.portfolio-intro p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  .portfolio-intro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+/* Writing Samples header */
+.portfolio-samples-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.portfolio-samples-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: rgba(128, 128, 128, 0.1);
+}
+
+.portfolio-samples-header h1 {
+  font-size: 2rem;
+  font-weight: 750;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.portfolio-samples-header p {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  opacity: 0.65;
+  margin-top: 0.4rem;
+}
