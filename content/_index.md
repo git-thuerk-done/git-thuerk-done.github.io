@@ -42,7 +42,7 @@ As technology evolves rapidly, particularly with the growing role of AI, my appr
 
 ## Beyond the Docs
 
-When I'm not writing documentation, you'll usually find me exploring a hiking trail, traveling somewhere new, or enjoying a good food adventure. I love discovering new places, trying local restaurants, and spending quality time with my adult son, who always makes things interesting!
+When I'm not writing documentation, you'll usually find me exploring a hiking trail, traveling somewhere new, or enjoying a good food adventure. My husband and I are now empty nesters, and we love spending our free time exploring new places, discovering local restaurants, and heading out on adventures together. We're also proud dog parents to Remmy and Mikey, who keep life entertaining!
 
 ## Explore My Work
 
