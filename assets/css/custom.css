@@ -99,10 +99,41 @@
   margin: 0;
 }
 
-.portfolio-home .portfolio-project a {
+
+/* Subtle interactive styling for project links */
+
+.portfolio-home .portfolio-project h3 a {
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.portfolio-home .portfolio-project h3 a::after {
+  content: " ↗";
+  display: inline-block;
+  opacity: 0.35;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.portfolio-home .portfolio-project h3 a:hover {
+  color: #64748b;
   text-decoration: none;
 }
 
-.portfolio-home .portfolio-project a:hover {
-  text-decoration: underline;
+.portfolio-home .portfolio-project h3 a:hover::after {
+  opacity: 1;
+  transform: translate(2px, -2px);
 }
+
+.portfolio-home .portfolio-project h3 a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-home .portfolio-project h3 a,
+  .portfolio-home .portfolio-project h3 a::after {
+    transition: none;
+  }
+}
+
