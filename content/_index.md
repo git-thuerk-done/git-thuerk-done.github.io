@@ -57,10 +57,9 @@ Good documentation starts with understanding the problem.
 
 <p>I'm interested in how AI, automation, and collaboration are changing the way we create and maintain technical documentation.</p>
 
-<p>I recently attended LavaCon 2026, where I explored emerging approaches to content strategy, AI, and the evolving role of technical communicators.</p>
+<p>I recently attended LavaCon 2026, where I explored emerging approaches to content strategy, AI, and the evolving role of technical communicators. I share these takeaways and other perspectives on technical writing in my Insights section.</p>
 
-<p><a href="/conferences/">Explore conferences →</a></p>
-</section>
+[**Explore Insights →**](/insights/)
 
 <section class="portfolio-section">
 <h2>Beyond the Docs</h2>
