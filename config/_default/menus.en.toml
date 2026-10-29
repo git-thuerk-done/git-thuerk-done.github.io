@@ -85,11 +85,6 @@
   weight = 30
 
 [[main]]
-  name = "Conferences"
-  pageRef = "conferences"
-  weight = 40
-
-[[main]]
   name = "Beyond the Docs"
   pageRef = "beyond-the-docs"
   weight = 50
