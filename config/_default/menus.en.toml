@@ -67,3 +67,13 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+[[main]]
+  name = "Conferences"
+  pageRef = "conferences"
+  weight = 30
+
+[[main]]
+  name = "Insights"
+  pageRef = "insights"
+  weight = 25
