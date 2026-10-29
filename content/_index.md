@@ -1,7 +1,7 @@
 
 ---
-title: "About Me"
-description: "Technical writer specializing in developer documentation, cloud technologies, and docs-as-code."
+title: "Alicia Thuerk"
+description: "Technical writer specializing in developer documentation, content strategy, and docs-as-code."
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -15,35 +15,44 @@ showWordCount: false
   />
   <div>
     <h1>Alicia Thuerk</h1>
-    <p>Technical Writer | Developer Documentation | Docs-as-Code</p>
+    <p>Technical Writer | Developer Documentation | Content Strategy</p>
   </div>
 </div>
 
-I've always had a passion for writing, but my career began in technical support, where I spent years troubleshooting complex issues, working directly with customers, and developing a strong technical foundation. Transitioning into technical writing felt like a natural way to combine my love of writing with my technical experience. That background continues to shape how I approach documentation today, giving me a firsthand understanding of the challenges customers face and the importance of clear, accessible information.
+## Good documentation starts with understanding the problem.
 
-Today, I'm a technical writer at Datadog, creating documentation that helps customers understand, configure, and troubleshoot observability products. My work spans developer documentation, technical guides, and enterprise administration, with a focus on making complex technology easier to understand.
+I'm a technical writer at Datadog with a background in technical support and a passion for making complex technology easier to understand.
 
-Beyond writing, I enjoy leading documentation initiatives and collaborating with Engineering, Product, and Support teams to identify content gaps, improve information architecture, and develop solutions that address real customer needs. I believe great documentation starts with understanding the problem, not just explaining the technology.
+My experience troubleshooting technical issues and working directly with customers shapes how I approach documentation today. I focus on understanding the challenges people face, then creating clear, practical guidance that helps them accomplish their goals.
 
-## My Approach
+I enjoy working at the intersection of technology, content strategy, and customer experience, collaborating with Engineering, Product, and Support teams to make documentation an integral part of the product experience.
 
-As technology evolves rapidly, particularly with the growing role of AI, my approach to technical writing continues to evolve around four key priorities:
+## Selected Work
 
-- **Understand the technology:** Build a strong technical foundation through research, hands-on exploration, and collaboration with subject matter experts.
-- **Focus on the customer:** Create documentation around real workflows, common challenges, and the tasks users need to accomplish.
-- **Collaborate and improve:** Work across teams to identify opportunities, refine content, and continuously improve the documentation experience.
-- **Leverage AI and automation:** Use AI-powered tools to drive documentation initiatives, streamline workflows, automate repetitive tasks, and improve content creation and maintenance.
+### Datadog Administrator's Guide
 
-## Technical Expertise
+Led the information architecture and content strategy for a centralized resource that helps administrators configure, manage, and maintain their Datadog environments.
 
-- **Documentation:** Developer documentation, API documentation, troubleshooting guides, information architecture, docs-as-code
-- **Technologies:** Cloud infrastructure, Kubernetes, containers, observability, network monitoring, security, digital experience monitoring (RUM, Synthetics, and Product Analytics)
-- **Tools:** Markdown, Hugo, Git, GitHub, GitLab, VS Code, Cursor, Claude Code
+### Understanding Browser Test Step Duration
+
+Partnered with the Synthetics Support team to turn recurring customer questions into practical documentation that clarifies how browser test step duration is calculated.
+
+### Network Path Documentation
+
+Led documentation initiatives across Synthetics and Network Performance Monitoring, using customer experience insights to improve clarity, discoverability, and technical guidance.
+
+[Explore my writing samples →](/writing-samples/)
+
+## Ideas & Insights
+
+I'm interested in how AI, automation, and collaboration are changing the way we create and maintain technical documentation.
+
+I recently attended LavaCon 2026, where I explored emerging approaches to content strategy, AI, and the evolving role of technical communicators.
+
+[Explore conferences →](/conferences/)
 
 ## Beyond the Docs
 
-When I'm not writing documentation, you'll usually find me exploring a hiking trail, traveling somewhere new, or enjoying a good food adventure. My husband and I are now empty nesters, and we love spending our free time exploring new places, discovering local restaurants, and heading out on adventures together. We're also proud dog parents to Remmy and Mikey, who keep life entertaining!
+Outside of work, I love hiking, traveling, and discovering great food. My husband and I are empty nesters who enjoy exploring new places and spending time with our two dogs, Remmy and Mikey.
 
-## Explore My Work
-
-Visit my [Writing Samples](/writing-samples/) to see examples of documentation initiatives I've led and technical guides I've authored.
+I believe curiosity is just as valuable outside the workplace as it is within it, and I'm always looking for the next adventure.
