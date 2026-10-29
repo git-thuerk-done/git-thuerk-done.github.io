@@ -68,12 +68,29 @@
 #   pageRef = "categories"
 #   weight = 20
 
+
 [[main]]
-  name = "Conferences"
-  pageRef = "conferences"
-  weight = 30
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Writing Samples"
+  pageRef = "writing-samples"
+  weight = 20
 
 [[main]]
   name = "Insights"
   pageRef = "insights"
-  weight = 25
+  weight = 30
+
+[[main]]
+  name = "Conferences"
+  pageRef = "conferences"
+  weight = 40
+
+[[main]]
+  name = "Beyond the Docs"
+  pageRef = "beyond-the-docs"
+  weight = 50
+
