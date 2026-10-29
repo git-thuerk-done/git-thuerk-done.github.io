@@ -28,15 +28,12 @@
       {{ end }}
     </header>
     <div class="relative flex flex-col grow">
-      <div class="portfolio-layout">
-        {{ partial "portfolio-sidebar.html" . }}
-        <main id="main-content" class="grow portfolio-main">
+      <main id="main-content" class="grow">
         {{ block "main" . }}{{ end }}
         {{ if and (site.Params.footer.showScrollToTop | default true) }}
           {{- partial "scroll-to-top.html" . -}}
         {{ end }}
-        </main>
-      </div>
+      </main>
       {{- partial "footer.html" . -}}
       {{ if site.Params.enableSearch | default false }}
         {{- partial "search.html" . -}}

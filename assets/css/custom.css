@@ -1,64 +1,3 @@
-.portfolio-layout {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.portfolio-sidebar {
-  flex-shrink: 0;
-  font-size: 0.875rem;
-}
-
-.portfolio-main {
-  flex: 1;
-  min-width: 0;
-}
-
-.portfolio-sidebar h3 {
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.portfolio-sidebar ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.portfolio-sidebar li {
-  margin-bottom: 0.75rem;
-}
-
-.portfolio-sidebar ul ul {
-  padding-left: 1rem;
-  margin-top: 0.75rem;
-}
-
-.portfolio-sidebar a:hover {
-  text-decoration: underline;
-}
-
-@media (min-width: 1024px) {
-  .portfolio-layout {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 2.5rem;
-  }
-
-  .portfolio-sidebar {
-    width: 220px;
-    position: sticky;
-    top: 2rem;
-    padding-top: 2rem;
-  }
-}
-
-@media (max-width: 1023px) {
-  .portfolio-sidebar {
-    padding: 1rem 0;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 1.5rem;
-  }
-}
 
 .portfolio-intro {
   display: flex;
@@ -125,4 +64,45 @@
   letter-spacing: 0.12em;
   opacity: 0.65;
   margin-top: 0.4rem;
+}
+
+/* Portfolio homepage: editorial refinements */
+
+.portfolio-home .portfolio-statement {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-home .portfolio-section {
+  margin-top: 4rem;
+}
+
+.portfolio-home .portfolio-section > h2 {
+  margin-bottom: 1.75rem;
+}
+
+.portfolio-home .portfolio-project {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.22);
+}
+
+.portfolio-home .portfolio-project h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.portfolio-home .portfolio-project p {
+  margin: 0;
+}
+
+.portfolio-home .portfolio-project a {
+  text-decoration: none;
+}
+
+.portfolio-home .portfolio-project a:hover {
+  text-decoration: underline;
 }
