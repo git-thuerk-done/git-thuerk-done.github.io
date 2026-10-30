@@ -13,8 +13,6 @@ showDate: true
 showReadingTime: true
 ---
 
-# AI Is Reading Our Docs. Are We Writing for It?
-
 *Reflections from LavaCon 2026 on AI, documentation quality, and the evolving role of technical writers.*
 
 I attended LavaCon 2026 expecting to learn more about AI, content strategy, and where technical writing is headed. And while AI was certainly everywhere, what stuck with me wasn't a particular tool or technology.
