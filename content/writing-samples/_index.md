@@ -12,12 +12,16 @@ Explore examples of my technical writing work, from leading documentation initia
 
 ## Documentation Projects
 
+### [Cloudcraft Documentation](cloudcraft-documentation/)
+
+Building an entire product documentation section from the
+ground up following Datadog's acquisition of Cloudcraft.
+
 ### [Network Path Documentation](/writing-samples/network-path-documentation/)
 - Cross-product documentation leadership, technical writing, and data-driven content improvements.
 
-### [Datadog Administrator's Guide](/writing-samples/datadog-administrators-guide/)
-- Information architecture and documentation leadership.
-
-
 ### [Understanding Browser Test Step Duration](/writing-samples/browser-test-step-duration/)
 - Technical problem-solving and customer advocacy.
+
+### [Datadog Administrator's Guide](/writing-samples/datadog-administrators-guide/)
+- Information architecture and documentation leadership.
