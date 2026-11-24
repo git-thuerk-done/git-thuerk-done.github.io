@@ -27,9 +27,9 @@ Good documentation starts with understanding the problem.
 
 <p>I'm a technical writer at Datadog with a background in technical support and a passion for making complex technology easier to understand.</p>
 
-<p>My experience troubleshooting technical issues and working directly with customers shapes how I approach documentation today. I focus on understanding the challenges people face, then creating clear, practical guidance that helps them accomplish their goals.</p>
+<p>My experience troubleshooting technical issues and working directly with customers shapes how I approach documentation today. I tend to think like a detective when making documentation decisions. I firmly believe you have to understand the problem before you can document the solution. I enjoy digging into the challenges customers face when using our documentation, identifying where things could be clearer, and developing practical guidance that helps them accomplish their goals.</p>
 
-<p>I enjoy working at the intersection of technology, content strategy, and customer experience, collaborating with Engineering, Product, and Support teams to make documentation an integral part of the product experience.</p>
+<p>I enjoy working closely with Engineering, Product, and Support teams. Each team brings a unique perspective, and I find that some of the best documentation comes from bringing those perspectives together. To me, documentation is part of the product itself and deserves the same attention as the features we build. "Docs or it didn't happen!"</p>
 
 <section class="portfolio-section">
 <h2>Selected Work</h2>

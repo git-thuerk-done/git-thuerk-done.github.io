@@ -13,109 +13,74 @@ showDate: true
 showReadingTime: true
 ---
 
-*Reflections from LavaCon 2026 on AI, documentation quality, and the evolving role of technical writers.*
+# AI Is Reading Our Docs
 
-I attended LavaCon 2026 expecting to learn more about AI, content strategy, and where technical writing is headed. And while AI was certainly everywhere, what stuck with me wasn't a particular tool or technology.
+*Reflections from LavaCon 2026 on AI, documentation quality, and technical writing.*
 
-It was a question: **Are we changing the way we write documentation to reflect how it's actually being consumed?**
+I recently attended the [LavaCon 2026](https://www.lavacon.org/2026-conference-program/) confernce curious about how other technical writers are adapting to AI. The conference certainly had no shortage of AI discussions! A lot of the session talks and breakouts centered on the latest AI tools, how to automate docs with AI, and how to use AI to find documentation gaps. These are all things I've been working on recently as well, but one central theme kept coming up: **Are we changing the way we write documentation to reflect how it's actually being consumed?**
 
-For years, we've focused on helping people find information, understand complex concepts, and complete tasks. That hasn't changed. But now we have another audience to consider: AI.
-
-And unlike humans, AI doesn't necessarily read our documentation from beginning to end.
+We've spent years generally thinking about how people navigate our documentation. Now we also need to consider how AI retrieves and interprets it.
 
 ## AI Is a Reader Now
 
 One of the sessions I attended, *AI Is Your New Top Reader. Are You Ready?*, explored how AI is changing the way documentation is retrieved and consumed.
 
-We've moved beyond traditional search into retrieval-augmented generation (RAG), where AI retrieves relevant chunks of documentation to generate answers. With MCP servers and agentic AI, documentation can also be retrieved on demand while an AI system works through a task.
+With retrieval-augmented generation (RAG), AI can retrieve relevant chunks of documentation to generate answers. MCP servers also provide a way for AI applications to access documentation as they work through a task.
 
-That changes the context in which our writing appears.
+A person reading a documentation page can scroll up, look at a screenshot, or follow a link to understand what came before. An AI system might retrieve a single section without any of that surrounding information.
 
-A human reading a documentation page can scroll up, look at a screenshot, or follow a link to understand what came before. An AI system might retrieve a single section without the surrounding information.
+I was thinking about how often we use phrases like "as mentioned above" or "see the example below." What happens when the referenced content isn't retrieved along with that section?
 
-It made me think about some of the language we use without giving it much thought.
-
-Phrases like "as mentioned above" or "see the example below" make sense when you're reading a complete page. But what happens when that section is retrieved on its own?
-
-The reference might no longer mean anything.
-
-This isn't an entirely new documentation principle. We've always encouraged clear, self-contained content. But AI gives us another reason to be intentional about how we structure and connect information.
-
-**Good documentation needs to make sense even when it's taken out of its original context.**
+Writing self-contained content isn't necessarily a new concept in technical writing, but I hadn't given much thought until recently to how some of these seemingly harmless phrases could affect the quality of an AI-generated answer.
 
 ## Quality Matters More, Not Less
 
-Another session, *The Docs Are Not Alright, and AI Alone Won't Fix Them*, reinforced something I feel strongly about: AI doesn't magically fix inaccurate or incomplete documentation.
+Another session, *The Docs Are Not Alright, and AI Alone Won't Fix Them*, addressed a concern I have about the growing reliance on AI: the quality of the documentation it uses.
 
-It can amplify those problems.
+If our documentation contains outdated instructions or incomplete information, an AI assistant can confidently pass that information along to a customer. When several AI tools rely on the same documentation, a single inaccuracy can become a much bigger problem.
 
-If an AI assistant retrieves outdated information, it can confidently generate an incorrect answer. And if multiple AI tools rely on the same source, that one documentation problem can affect users across several experiences.
+It made me think about how we can continue to automate checks that catch problems at the end of a process while also introducing guardrails that help prevent them in the first place. Tools like Vale, build checks, and link checkers already help us catch many of these issues.
 
-That was one of my biggest takeaways from the conference.
+Thinking about this in terms of docs-as-code workflows, I wondered whether we could extend our existing style checks to flag references that might be problematic when content is retrieved out of context.
 
-As technical writers, we already care about accuracy, consistency, and maintainability. But the consequences of getting those things wrong are changing.
+Adding a section to an existing style guide about writing for AI might be a good starting point, but how do we know which guidelines actually improve the quality of AI-generated answers? We'd need to test how our content is retrieved and interpreted before deciding what rules to enforce.
 
-One concept from the session that I particularly liked was the distinction between **guardrails and gates**.
-
-Gates catch problems at the end of a process. Guardrails help prevent those problems while the work is happening.
-
-It got me thinking about the opportunities we have to build more guidance into our documentation workflows.
-
-For example, rather than relying entirely on manual reviews to catch language that doesn't work well outside its original context, we can use automated style checks to identify potentially problematic references.
-
-Not every instance needs to be rewritten. Sometimes "the following example" works perfectly well because the example and its introduction remain together.
-
-The important part is recognizing where context might be lost and making thoughtful improvements.
+It's an interesting concept I'd like to explore further.
 
 ## What Ada Lovelace Reminded Me About Technical Writing
 
-One of my favorite sessions of the conference was *Ada Lovelace the Tech Writer*.
+One of my favorite sessions was *Ada Lovelace the Tech Writer*.
 
-I loved the connection between Ada Lovelace's work and the role of technical writers today.
+Ada Lovelace's notes on the Analytical Engine were substantially longer than the paper she translated. She expanded on the original material, explained concepts, and contributed her own insights.
 
-Her notes on the Analytical Engine were substantially longer than the paper she translated. She didn't simply restate the source material. She expanded on it, explained concepts, and contributed insights that weren't present in the original work.
+Of the five principles discussed in this session, my favorite was **adding what the source doesn't have: your expertise**.
 
-That feels incredibly relevant to technical writing in the age of AI.
+This is something I can relate to, particularly coming from an extensive technical support background. Some of my most rewarding documentation projects have started with a customer question that didn't have a good answer.
 
-We do much more than translate engineering knowledge into readable sentences.
+Sometimes that means testing a workflow myself, digging into product behavior, or working with engineers to understand why something works the way it does. Other times, it means discovering that information exists across several places but hasn't been brought together in a way that's useful to the customer. This happens more than you think!
 
-We ask questions. We identify gaps. We test workflows. We connect information across products and teams. And sometimes, we recognize that the documentation needs to explain something nobody has fully articulated yet.
-
-The session highlighted five principles: document what doesn't exist yet, contribute your expertise, automate repetitive work while evaluating the results, keep learning, and take ownership of your work.
-
-The idea that resonated most with me was **adding what the source doesn't have: your expertise**.
-
-AI can help us draft, organize, and maintain content. But knowing which questions to ask, understanding why something matters to a user, and recognizing when information is missing still require human judgment.
-
-That's the part of technical writing I find most rewarding.
+AI can certainly help with research, drafting, and organizing information, but a writer still needs to recognize what's missing and determine whether the documentation actually solves the customer's problem.
 
 ## Bringing the Ideas Back to My Work
 
-One thing I appreciate about attending conferences is the opportunity to come back with something actionable.
+My favorite part of attending a conference is coming home with ideas I can experiment with.
 
-It's easy to leave a session inspired by an interesting idea. The harder—and more valuable—part is figuring out how it applies to the work you're already doing.
+Since LavaCon, I've been thinking about a few areas I'd like to explore further:
 
-After LavaCon, I found myself thinking about a few practical questions:
-
-- Can we make our documentation more useful when individual sections are retrieved by AI?
-- Where can automated checks help us maintain quality without adding unnecessary review overhead?
-- How can we identify the questions users are asking that our documentation doesn't adequately answer?
-- Which repetitive documentation tasks can we automate so writers have more time for research, testing, and problem-solving?
-
-These aren't questions with one-time answers. They're opportunities to keep improving how we work.
-
-And in many cases, the goal isn't to introduce another AI tool. It's to make better use of the processes and expertise we already have.
+- How well does our documentation hold up when individual sections are retrieved by AI?
+- Could we use automated checks to identify content that is outdated or no longer reflects product behavior?
+- Can we test codebase against the documentation to flag areas that are incorrect, missing, or inaccurate?
+- Can we use the questions customers ask AI assistants to uncover gaps in our documentation?
+- Which repetitive tasks could we automate to give writers more time to research and test the products they document?
 
 ## What I'm Taking Away
 
-If there was one recurring message throughout LavaCon 2026, it was that AI isn't making technical writing less important.
+I went into LavaCon wanting to learn more about AI. I came away thinking just as much about the fundamentals of technical writing.
 
-It's changing where our effort matters most.
+I'm excited about what AI can do for documentation, especially when it comes to maintenance, identifying content gaps, and making information easier to find. 
 
-We need to think about documentation as information that serves both people and machines. We need to care about the quality of our source content because more systems depend on it. And we need to find ways to automate repetitive work without losing the expertise that makes documentation valuable.
+As technical writers, we now have another reason to question what we write, how we structure it, and whether it answers the questions our customers are actually asking.
 
-I left LavaCon with plenty of ideas to explore, a renewed appreciation for the role technical writers play, and a reminder that our value isn't simply in producing content.
+I'm looking forward to experimenting with some of these ideas and seeing what works.
 
-**It's in understanding the problem, asking the right questions, and making complex information useful.**
-
-And yes, there were llamas. Because apparently no content strategy conference is complete without them. 🦙
+And yes, there were llamas! Because apparently no content strategy conference is complete without them. 🦙 Oh, and there were puppies too! 

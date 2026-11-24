@@ -20,7 +20,7 @@ Organized around three key stages—**Plan, Build, and Run**—the guide helps a
 
 ## The Challenge
 
-Datadog administrators needed a clear entry point to understand how to approach platform administration and locate relevant guidance and best practices.
+Several Sales Engineers at Datadog had repeatedly raised a concern with my team: customers responsible for administering the Datadog platform didn't have a clear starting point. Although much of the information they needed existed in our documentation, administrators needed a central resource to help them understand their responsibilities, find relevant guidance, and follow recommended best practices.
 
 The challenge was to organize technical information into a cohesive resource that supported administrators throughout their implementation and operational workflows.
 

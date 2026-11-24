@@ -16,15 +16,13 @@ showReadingTime: false
 
 [How Step Duration is Determined in Browser Tests](https://docs.datadoghq.com/synthetics/guide/step-duration/) explains how Datadog Synthetic Monitoring calculates the duration of individual Browser Test steps, including page loading, network activity, and execution timeouts.
 
-The guide helps customers understand unexpected step durations and troubleshoot test performance.
-
 ## The Challenge
 
-Customers were repeatedly submitting feature requests related to Browser Test step duration.
+What started as a series of customer feature requests turned into an interesting documentation project.
 
-During a Synthetics Engineering summit, I participated in discussions focused on identifying high-impact customer pain points and potential product improvements.
+During a Synthetics Engineering summit, I participated in a cross-functional group where we discussed recurring customer frustrations, including several feature requests related to browser test step duration. I was curious whether customers actually needed a change to the product or simply a better understanding of how it worked.
 
-Further investigation with Support and Engineering revealed that the underlying challenge could be addressed through clearer technical guidance rather than a change to the product's code.
+After digging into these requests with Support and Engineering, we discovered that clearer technical documentation could address the underlying problem without requiring a change to the product itself.
 
 ## My Role & Contributions
 

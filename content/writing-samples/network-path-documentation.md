@@ -13,8 +13,6 @@ showWordCount: false
 
 ## Overview
 
-Network Path provides visibility into the network routes and connectivity between systems, helping customers investigate network performance and troubleshoot connectivity issues.
-
 I led and authored the Network Path documentation efforts across two Datadog product areas: Synthetics and Network Monitoring. This initiative involved translating complex networking concepts into accessible technical guidance, coordinating across product teams, and supporting a major feature launch.
 
 Beyond the initial release, I used customer behavior analytics to evaluate documentation engagement, identify friction, and implement targeted content improvements.
@@ -55,10 +53,6 @@ I presented the Product Analytics report and my findings at a Synthetics Enginee
 The presentation highlighted the value of looking beyond page views to understand how customers navigate and engage with technical documentation.
 
 ## Outcome
-
-Successfully led and authored Network Path documentation across Synthetics and Network Monitoring, delivering technical guidance for a complex capability spanning multiple products.
-
-After launch, I used behavioral analytics to identify documentation friction, implemented targeted improvements, and observed improved frustration signals and reader engagement.
 
 This project demonstrates my approach to documentation ownership throughout the full content lifecycle, from technical investigation and cross-functional collaboration to publication, measurement, and continuous improvement.
 
